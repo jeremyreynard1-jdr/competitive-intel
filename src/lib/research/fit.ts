@@ -48,10 +48,17 @@ export async function researchFit(
 Name: ${profile.name}
 Title: ${profile.title}
 Summary: ${profile.summary}
-Skills: ${profile.skills.join(", ")}
+Skills:\n${profile.skills.map((s) => `- ${s}`).join("\n")}
 Target Roles: ${profile.targetRoles.join(", ")}
 Experience:
 ${profile.experience.map((e) => `- ${e.role} at ${e.company} (${e.duration}): ${e.highlights.join("; ")}`).join("\n")}`;
+    if (profile.keyThemes) {
+      profileContext += `\n\nKEY THEMES (use these to map candidate strengths to company needs):
+${Object.entries(profile.keyThemes).map(([k, v]) => `- ${k}: ${v}`).join("\n")}`;
+    }
+    if (profile.education) {
+      profileContext += `\nEducation: ${profile.education}`;
+    }
   }
 
   const roleContext = role ? `\nTARGET ROLE: ${role}` : "";

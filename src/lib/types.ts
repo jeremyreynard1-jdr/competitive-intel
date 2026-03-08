@@ -270,6 +270,8 @@ export interface UserProfile {
   skills: string[];
   experience: ExperienceItem[];
   targetRoles: string[];
+  education?: string;
+  keyThemes?: Record<string, string>;
 }
 
 export interface ExperienceItem {

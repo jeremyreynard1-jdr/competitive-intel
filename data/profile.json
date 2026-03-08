@@ -1,15 +1,105 @@
 {
-  "name": "",
-  "title": "",
-  "summary": "",
-  "skills": [],
+  "name": "Jeremy Reynard",
+  "title": "Strategic Operations Leader",
+  "summary": "10+ years leading BizOps, People Ops, and Analytics at high-growth startups and global companies (LinkedIn, Disney+, WeWork, Matter Labs). Builds 0→1 operations and scales them 10x. Partners with executive leadership to create operating rhythms, enable data-driven decisions, and drive alignment during rapid scale. Cross-functional program executor across People, Finance, Legal, and Data. Experienced managing global teams across NAMER, LATAM, EMEA, and APAC.",
+  "skills": [
+    "Cross-functional program management — built and ran People/Legal/Finance workstreams at Matter Labs (150+ person org, 30+ countries)",
+    "Operating cadence design — codified annual business rhythms (OKRs, QBRs, board prep) from scratch at Matter Labs",
+    "Strategic analytics — automated Disney+ exec reporting (130M+ subs), reducing time-to-insight 80%, saving 30 hrs/wk",
+    "High-stakes launch execution — led ops for Matter Labs token launch, distributing ~$1B to 300+ stakeholders across People/Legal/Finance",
+    "People operations — interim Head of People (10 reports), comp model redesign, ATS migration, 401(k) rollout, exec searches",
+    "Cost optimization — $300K+ savings via vendor renegotiations, AI tool rollout, tool consolidation, workflow automation",
+    "International growth — built Disney+ analytics team supporting EMEA/LATAM/APAC (~70% of subs), WeWork LATAM expansion (6 countries)",
+    "Data-driven decision-making — sized $10M+ partnership at Disney+, defined $20M+ quarterly marketing revenue measurement at WeWork",
+    "Change management — AI tool adoption programs, Amplitude rollouts, Slack migrations, expense policy overhauls",
+    "Ambiguity navigation — valued a physical remote button for Roku/Disney+ partnership, stepped in as interim IR lead during token launch",
+    "Team building and people development — built analytics career ladder at Disney+, coached 3+ individuals to senior promotions",
+    "Investor relations — managed investor communications and cap table during high-scrutiny token launch period",
+    "AI workflows — piloting Claude, ChatGPT, Gemini across organizations; driving adoption with SOPs and guardrails"
+  ],
   "experience": [
     {
-      "role": "",
-      "company": "",
-      "duration": "",
-      "highlights": []
+      "role": "Fractional Head of Operations",
+      "company": "Contract (post-merger org)",
+      "duration": "2025 – Present",
+      "highlights": [
+        "Strategic partner to COO leading post-merger alignment of People, Finance, and Operations",
+        "Standardizing policy and process across ~$15M annual operating budget org",
+        "Piloting Claude adoption program across the organization"
+      ]
+    },
+    {
+      "role": "Chief of Staff & Head of BizOps, Office of the COO",
+      "company": "Matter Labs",
+      "duration": "2024 – 2025",
+      "highlights": [
+        "Led ops for public token listing — ~$1B distributed to 300+ stakeholders across People/Legal/Finance",
+        "Reduced People-related burn rate 10% through comp redesign and strategic headcount planning",
+        "Saved $300K+ in operating costs through vendor renegotiations, AI tools, and workflow automation",
+        "Increased on-time delivery of cross-functional initiatives 40% by building structured operating cadence",
+        "Served as interim Head of People — managed 10-person org, launched comp model, ATS migration, 401(k)",
+        "Filled critical gaps: Investor Relations, cap table management, compliance workstreams"
+      ]
+    },
+    {
+      "role": "Manager, International Analytics → Business Strategy & Analytics Lead",
+      "company": "Disney+ (Disney Streaming)",
+      "duration": "2021 – 2023",
+      "highlights": [
+        "Reduced time-to-insight 80% by automating executive reporting across 130M+ global subscribers",
+        "Enabled $10M+ partnership negotiation via cross-functional LTV and ROI analysis",
+        "Supported 10% international subscriber growth by building analytics team for EMEA/LATAM/APAC",
+        "Interim Manager, Partner Analytics — optimized 100+ global partnerships",
+        "Built analytics career ladder and helped 3+ individuals secure senior promotions"
+      ]
+    },
+    {
+      "role": "Senior Manager, Business Intelligence",
+      "company": "Luminary Media",
+      "duration": "2019 – 2020",
+      "highlights": [
+        "First data hire — built exec reporting (CAC, LTV, ARPU, retention) enabling 10-15% MoM growth",
+        "Led Amplitude product analytics rollout for self-service analysis across global subscribers",
+        "Reduced CAC 4x QoQ through data-driven marketing optimization"
+      ]
+    },
+    {
+      "role": "Senior Lead, LATAM Growth Analytics",
+      "company": "WeWork",
+      "duration": "2018 – 2020",
+      "highlights": [
+        "First regional growth analytics lead for LATAM — 6 countries, 11 markets, based in Buenos Aires",
+        "Supported $20M+ quarterly marketing revenue measurement by defining core KPIs and building reporting",
+        "Increased data-driven decision-making 30% through self-service dashboards and stakeholder education"
+      ]
+    },
+    {
+      "role": "Team Lead, Global Market Research Programs",
+      "company": "LinkedIn",
+      "duration": "2014 – 2018",
+      "highlights": [
+        "Promoted within role; recognized as 2018 Top Cross-Functional Partner out of 4000+ employees",
+        "Increased project delivery 33% by centralizing program management and automating workflows",
+        "Surveyed 300K+ members for LinkedIn's largest NPS program; supported $20M revenue via 30+ client research projects",
+        "Started in Business Leadership Program — rotations in Recruiting (200 SWE interviews/16 hires), Ops, and Sales (165% quota)"
+      ]
     }
   ],
-  "targetRoles": []
+  "targetRoles": [
+    "Chief of Staff",
+    "Head of Business Operations",
+    "Head of Operations",
+    "VP Operations",
+    "Head of People Operations",
+    "Strategy & Operations Lead"
+  ],
+  "education": "UCLA, BA Business-Economics, Summa Cum Laude | University of Salamanca & LSE International Program",
+  "keyThemes": {
+    "buildFromZero": "Repeatedly built 0→1 functions: first data hire at Luminary, first LATAM analytics lead at WeWork, first international analytics team at Disney+, built BizOps from scratch at Matter Labs",
+    "executivePartnership": "Track record as right-hand to C-suite: COO at Matter Labs, VP at Disney+, COO at current fractional role. Translates ambiguity into structured execution.",
+    "crossFunctionalGlue": "Natural connector across People, Legal, Finance, Data, and Ops. Led cross-functional workstreams at every company. Recognized as Top Cross-Functional Partner at LinkedIn.",
+    "dataToDecisions": "Makes organizations more data-driven: automated reporting, built dashboards, sized opportunities, defined KPIs. Not just analytics — turns data into decisions and action.",
+    "globalExperience": "Led teams and initiatives across NAMER, LATAM, EMEA, APAC. Lived and worked in Buenos Aires. Advanced Spanish. Comfortable with distributed, multicultural teams.",
+    "operationalScale": "Manages complexity at scale: 130M+ subscribers at Disney+, $1B token distribution at Matter Labs, 6-country expansion at WeWork, 300K+ member surveys at LinkedIn."
+  }
 }

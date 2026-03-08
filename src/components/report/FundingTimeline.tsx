@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { TimelineEvent } from "@/lib/types";
 
 const typeColors: Record<TimelineEvent["type"], string> = {
@@ -25,13 +26,47 @@ interface FundingTimelineProps {
 }
 
 export function FundingTimeline({ events }: FundingTimelineProps) {
+  const [filter, setFilter] = useState<TimelineEvent["type"] | "all">("all");
+
   if (!events.length) return null;
 
-  const sorted = [...events].sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
-  );
+  const types = Array.from(new Set(events.map((e) => e.type)));
+
+  const sorted = [...events]
+    .filter((e) => filter === "all" || e.type === filter)
+    .sort(
+      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+    );
 
   return (
+    <div>
+      {/* Type filters */}
+      <div className="mb-4 flex flex-wrap gap-1.5">
+        <button
+          onClick={() => setFilter("all")}
+          className={`rounded-full px-3 py-1 text-[11px] font-medium transition-colors ${
+            filter === "all"
+              ? "bg-navy text-white"
+              : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+          }`}
+        >
+          All
+        </button>
+        {types.map((type) => (
+          <button
+            key={type}
+            onClick={() => setFilter(type)}
+            className={`rounded-full px-3 py-1 text-[11px] font-medium transition-colors ${
+              filter === type
+                ? typeColors[type]
+                : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+            }`}
+          >
+            {typeLabels[type]}
+          </button>
+        ))}
+      </div>
+
     <div className="relative">
       {/* Vertical line */}
       <div className="absolute left-[19px] top-2 bottom-2 w-px bg-slate-200" />
@@ -70,6 +105,7 @@ export function FundingTimeline({ events }: FundingTimelineProps) {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

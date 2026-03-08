@@ -55,7 +55,10 @@ export default function DashboardPage() {
 
         {/* Previous Reports */}
         <div className="mt-12 w-full">
-          <ReportList reports={reports} />
+          <ReportList
+            reports={reports}
+            onDelete={(id) => setReports((prev) => prev.filter((r) => r.id !== id))}
+          />
         </div>
       </div>
     </div>

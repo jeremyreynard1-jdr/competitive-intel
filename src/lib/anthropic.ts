@@ -1,14 +1,16 @@
 import Anthropic from "@anthropic-ai/sdk";
 
-const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY ?? "",
-});
+function getClient(): Anthropic {
+  return new Anthropic({
+    apiKey: process.env.CLAUDE_API_KEY,
+  });
+}
 
 export async function analyzeWithClaude<T>(
   systemPrompt: string,
   userContent: string
 ): Promise<T> {
-  const message = await client.messages.create({
+  const message = await getClient().messages.create({
     model: "claude-sonnet-4-20250514",
     max_tokens: 4096,
     messages: [{ role: "user", content: userContent }],
