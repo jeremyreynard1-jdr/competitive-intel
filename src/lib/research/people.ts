@@ -7,18 +7,25 @@ export async function researchPeople(
   companyName: string
 ): Promise<PeopleOrg> {
   const queries = [
-    `${companyName} leadership team CEO CTO executives linkedin`,
+    { query: `${companyName} leadership team CEO CTO executives`, options: { includeAnswer: true, searchDepth: "advanced" as const } },
+    `${companyName} CEO founder LinkedIn profile background`,
     `${companyName} board of directors advisors investors`,
-    `${companyName} hiring open positions jobs careers`,
-    `${companyName} company culture values glassdoor reviews employees`,
-    `${companyName} team size employees departments organizational structure`,
+    { query: `${companyName} careers open positions jobs hiring 2025 2026`, options: { maxResults: 7 } },
+    `${companyName} jobs site:linkedin.com OR site:greenhouse.io OR site:lever.co OR site:ashbyhq.com`,
+    `${companyName} company culture values glassdoor reviews employee experience`,
+    `${companyName} team size number of employees LinkedIn headcount growth`,
+    { query: `${companyName} new hires executive appointments 2025`, options: { topic: "news" as const, days: 180 } },
   ];
 
-  const results = await searchMultiple(queries, 5);
+  const { results, answers } = await searchMultiple(queries, 5);
 
-  const context = results
+  let context = results
     .map((r) => `[${r.title}](${r.url})\n${r.content}`)
     .join("\n\n---\n\n");
+
+  if (answers.length > 0) {
+    context = `AI-SYNTHESIZED PEOPLE OVERVIEW:\n${answers.join("\n\n")}\n\n---\n\nDETAILED SOURCES:\n\n${context}`;
+  }
 
   return analyzeWithClaude<PeopleOrg>(
     PEOPLE_SYSTEM_PROMPT,

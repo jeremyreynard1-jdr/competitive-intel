@@ -7,18 +7,24 @@ export async function researchMarket(
   companyName: string
 ): Promise<MarketLandscape> {
   const queries = [
-    `${companyName} competitors alternatives comparison`,
-    `${companyName} market size TAM total addressable market industry`,
-    `${companyName} competitive advantages differentiation moat`,
-    `${companyName} industry trends future outlook`,
-    `${companyName} competitive landscape market position risks`,
+    { query: `${companyName} competitors alternatives comparison 2025`, options: { includeAnswer: true, searchDepth: "advanced" as const } },
+    `${companyName} vs competitors comparison review`,
+    `${companyName} market size TAM SAM total addressable market industry report`,
+    `${companyName} competitive advantages differentiation moat unique value`,
+    { query: `${companyName} industry trends outlook 2025 2026`, options: { topic: "news" as const, days: 180 } },
+    `${companyName} competitive landscape market position risks threats`,
+    `${companyName} product positioning messaging strategy`,
   ];
 
-  const results = await searchMultiple(queries, 5);
+  const { results, answers } = await searchMultiple(queries, 5);
 
-  const context = results
+  let context = results
     .map((r) => `[${r.title}](${r.url})\n${r.content}`)
     .join("\n\n---\n\n");
+
+  if (answers.length > 0) {
+    context = `AI-SYNTHESIZED COMPETITIVE ANALYSIS:\n${answers.join("\n\n")}\n\n---\n\nDETAILED SOURCES:\n\n${context}`;
+  }
 
   return analyzeWithClaude<MarketLandscape>(
     MARKET_SYSTEM_PROMPT,

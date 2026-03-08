@@ -13,9 +13,11 @@ export async function researchFit(
     `${companyName} chief of staff head of operations business operations`,
     `${companyName} head of people HR VP people team`,
     `${companyName} organizational challenges growing pains scaling`,
+    { query: `${companyName} strategic priorities goals 2025 2026`, options: { topic: "news" as const, days: 180 } },
+    `${companyName} org structure gaps leadership needs hiring`,
   ];
 
-  const results = await searchMultiple(queries, 5);
+  const { results } = await searchMultiple(queries, 5);
   const profile = await getProfile();
 
   const searchContext = results

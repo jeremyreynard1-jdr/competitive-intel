@@ -7,18 +7,25 @@ export async function researchFinancial(
   companyName: string
 ): Promise<FinancialOutlook> {
   const queries = [
-    `${companyName} revenue ARR annual recurring revenue financial performance`,
-    `${companyName} IPO acquisition exit strategy plans`,
-    `${companyName} burn rate runway profitability funding`,
-    `${companyName} industry comparable acquisitions exits`,
-    `${companyName} growth trajectory valuation investors`,
+    { query: `${companyName} revenue ARR annual recurring revenue 2024 2025`, options: { includeAnswer: true, searchDepth: "advanced" as const } },
+    { query: `${companyName} latest valuation funding round 2025 2026`, options: { topic: "news" as const, days: 180 } },
+    `${companyName} IPO plans acquisition exit strategy public offering`,
+    `${companyName} burn rate runway profitability financial health`,
+    `${companyName} comparable company acquisitions exits valuations in industry`,
+    `${companyName} growth rate customers users metrics traction`,
+    { query: `${companyName} financial news revenue growth 2025`, options: { topic: "news" as const, days: 120 } },
+    `${companyName} secondary share sale tender offer employee stock`,
   ];
 
-  const results = await searchMultiple(queries, 5);
+  const { results, answers } = await searchMultiple(queries, 5);
 
-  const context = results
+  let context = results
     .map((r) => `[${r.title}](${r.url})\n${r.content}`)
     .join("\n\n---\n\n");
+
+  if (answers.length > 0) {
+    context = `AI-SYNTHESIZED FINANCIAL OVERVIEW:\n${answers.join("\n\n")}\n\n---\n\nDETAILED SOURCES:\n\n${context}`;
+  }
 
   return analyzeWithClaude<FinancialOutlook>(
     FINANCIAL_SYSTEM_PROMPT,
