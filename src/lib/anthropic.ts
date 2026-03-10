@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 
 function getClient(): Anthropic {
   return new Anthropic({
-    apiKey: process.env.CLAUDE_API_KEY,
+    apiKey: process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY,
   });
 }
 
