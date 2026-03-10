@@ -14,13 +14,18 @@ export default function ResearchPage({
   const { id } = use(params);
   const searchParams = useSearchParams();
   const isNew = searchParams.get("new") === "true";
+  const companyParam = searchParams.get("company");
+  const roleParam = searchParams.get("role");
 
   const { report, sections, startResearch, refreshSection, loadReport } =
     useResearch();
 
   useEffect(() => {
-    if (isNew) {
-      // Load the report to get company name, then start research
+    if (isNew && companyParam) {
+      // Start research directly using URL params — no filesystem read needed
+      startResearch(companyParam, roleParam || undefined);
+    } else if (isNew) {
+      // Fallback: try loading from API (works locally, may fail on Vercel)
       fetch(`/api/research/${id}`)
         .then((res) => res.json())
         .then((loaded) => {

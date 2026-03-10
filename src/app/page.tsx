@@ -30,7 +30,9 @@ export default function DashboardPage() {
       if (!res.ok) throw new Error("Failed to create report");
 
       const report = (await res.json()) as Report;
-      router.push(`/research/${report.id}?new=true`);
+      const params = new URLSearchParams({ new: "true", company: report.companyName });
+      if (report.role) params.set("role", report.role);
+      router.push(`/research/${report.id}?${params.toString()}`);
     } catch (error) {
       console.error("Failed to start research:", error);
       setIsLoading(false);

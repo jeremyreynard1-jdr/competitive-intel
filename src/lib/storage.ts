@@ -3,9 +3,14 @@ import path from "path";
 import { v4 as uuidv4 } from "uuid";
 import type { Report, UserProfile } from "./types";
 
-const DATA_DIR = path.join(process.cwd(), "data");
+// On Vercel, the filesystem is read-only except for /tmp.
+// Use /tmp for serverless, local data/ dir for development.
+const isVercel = !!process.env.VERCEL;
+const DATA_DIR = isVercel ? "/tmp/data" : path.join(process.cwd(), "data");
 const REPORTS_DIR = path.join(DATA_DIR, "reports");
-const PROFILE_PATH = path.join(DATA_DIR, "profile.json");
+const PROFILE_PATH = isVercel
+  ? path.join(process.cwd(), "data", "profile.json") // read-only, bundled at build
+  : path.join(DATA_DIR, "profile.json");
 
 async function ensureDir(dir: string) {
   try {
