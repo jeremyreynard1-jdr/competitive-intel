@@ -1,0 +1,393 @@
+{
+  "id": "06990975-ca49-451d-8aac-25e3bdbcaf96",
+  "companyName": "Imprint (Financial Services)",
+  "createdAt": "2026-03-28T04:17:35.886Z",
+  "updatedAt": "2026-03-28T04:19:26.933Z",
+  "sections": {
+    "overview": {
+      "description": "Imprint is a financial technology company that partners with brands to design, configure, and operate co-branded credit card programs and \"buy now, pay later\" solutions. The company's platform focuses on embedded, white-labeled financial products that give brands greater control over customer relationships, payment data, and loyalty economics compared to traditional co-brand issuers.",
+      "founded": "2020",
+      "headquarters": "New York, NY (with additional office in Bellevue, WA)",
+      "employeeCount": "150-200 (estimated from LinkedIn's 51-200 range and 233 associated members)",
+      "website": "https://imprint.co",
+      "mission": "To build the easiest and most rewarding way to pay and transform co-brand cards into a true loyalty platform",
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Go",
+        "Swift",
+        "Kotlin",
+        "Microservices architecture",
+        "Custom immutable ledger",
+        "Machine learning"
+      ],
+      "fundingHistory": [
+        {
+          "date": "May 2025",
+          "round": "Debt financing",
+          "amount": "$500M (warehouse facility)",
+          "investors": [
+            "Mizuho",
+            "Truist Bank",
+            "HSBC"
+          ],
+          "valuation": null
+        },
+        {
+          "date": "December 2025",
+          "round": "Series D",
+          "amount": "$150M",
+          "investors": [
+            "Khosla Ventures",
+            "Spice Capital",
+            "Timeless",
+            "Spice Expeditions",
+            "Azuro"
+          ],
+          "valuation": "$1.2B"
+        },
+        {
+          "date": "October 2024",
+          "round": "Series C",
+          "amount": "$75M",
+          "investors": [
+            "Khosla Ventures (Keith Rabois)",
+            "Thrive Capital",
+            "Kleiner Perkins",
+            "Ribbit Capital"
+          ],
+          "valuation": "$600M"
+        },
+        {
+          "date": "November 2023",
+          "round": "Series B",
+          "amount": "$75M (estimated)",
+          "investors": [],
+          "valuation": null
+        },
+        {
+          "date": "November 2021",
+          "round": "Series A",
+          "amount": "$38M",
+          "investors": [
+            "Kleiner Perkins",
+            "Stripe"
+          ],
+          "valuation": null
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2020",
+          "title": "Company Founded",
+          "description": "Imprint founded by Daragh Murphy (Co Kildare, Ireland native and Duke University graduate) to address the need for modern co-branded credit card technology",
+          "type": "founding"
+        },
+        {
+          "date": "November 2021",
+          "title": "Series A Funding",
+          "description": "Raised $38M Series A led by Kleiner Perkins with participation from Stripe",
+          "type": "funding"
+        },
+        {
+          "date": "November 2023",
+          "title": "Series B Funding",
+          "description": "Completed $75M Series B funding round",
+          "type": "funding"
+        },
+        {
+          "date": "October 2024",
+          "title": "Series C Funding",
+          "description": "Raised $75M Series C led by Keith Rabois at Khosla Ventures, reaching $600M valuation",
+          "type": "funding"
+        },
+        {
+          "date": "July 2025",
+          "title": "Major Partnership Wins",
+          "description": "Secured partnerships with Rakuten, Booking.com, and other major brands",
+          "type": "milestone"
+        },
+        {
+          "date": "August 2025",
+          "title": "Fitch AAA Rating",
+          "description": "Achieved AAA investment rating from Fitch Ratings for inaugural $300M securitization",
+          "type": "milestone"
+        },
+        {
+          "date": "December 2025",
+          "title": "Unicorn Status",
+          "description": "Raised $150M Series D at $1.2B valuation, achieving unicorn status",
+          "type": "funding"
+        }
+      ],
+      "recentNews": [
+        {
+          "title": "Imprint Raises $150 Million Series D to Transform Co-Brand Cards into a True Loyalty Platform",
+          "source": "Business Wire",
+          "date": "2025-12-17",
+          "url": "https://www.businesswire.com/news/home/20251217961518/en/",
+          "summary": "Imprint secures $150M Series D at $1.2B valuation, achieving unicorn status as brands increasingly turn to the company to replace legacy bank-issued programs."
+        },
+        {
+          "title": "Imprint hits unicorn status following $150m Series D",
+          "source": "FinTech Futures",
+          "date": "2025-12-18",
+          "url": "https://www.fintechfutures.com/venture-capital-funding/imprint-hits-unicorn-status-following-150m-series-d",
+          "summary": "Imprint's latest raise doubled the company's valuation to $1.2 billion from $600 million, following strong growth with 200% year-over-year cardholder base increase."
+        },
+        {
+          "title": "This Fintech Helps You Get More Credit Card Rewards At Retailers And On Vacation",
+          "source": "Forbes",
+          "date": "2025-02-12",
+          "url": "https://www.forbes.com/companies/imprint/",
+          "summary": "Forbes profiles Imprint's cloud-based ledger system that allows retailers to micro-target rewards and its competition with traditional co-brand issuers like Synchrony and Capital One."
+        }
+      ]
+    },
+    "perception": {
+      "overallSentiment": "Imprint (Financial Services) faces mixed public perception with significant negative feedback around billing practices and customer service, while leadership maintains positive industry visibility through conferences and interviews.",
+      "sentimentScore": 4,
+      "redditDiscussions": [
+        {
+          "source": "r/CreditCards",
+          "title": "Imprint is charging interest on a $0 previous statement after Crate",
+          "content": "Filed complaints with BBB and consumer financial protection bureau, spent 45 minutes arguing on phone about improper interest charges",
+          "sentiment": "negative",
+          "url": "https://www.reddit.com/r/CreditCards/comments/1okfaao/imprint_is_charging_interest_on_a_0_previous/",
+          "date": null
+        }
+      ],
+      "reviews": {
+        "averageRating": 2.6,
+        "totalReviews": null,
+        "platforms": [
+          "App Store",
+          "Google Play",
+          "Trustpilot",
+          "BBB"
+        ],
+        "themes": {
+          "positive": [
+            "Quick customer service response when reached",
+            "Good card replacement service"
+          ],
+          "negative": [
+            "Unauthorized charges after trial cancellation",
+            "Poor customer service responsiveness",
+            "Interest charged on zero balances",
+            "Billing system errors",
+            "Non-English speaking support staff"
+          ]
+        },
+        "highlights": [
+          "App Store: 4.8/5 stars but Google Play: 3.1/5",
+          "Trustpilot: 1.9/5 with complaints about trial billing",
+          "BBB complaints about system errors and continuous interest charges",
+          "Multiple reports of being charged after canceling free trials"
+        ]
+      },
+      "pressCoverage": [
+        {
+          "title": "Talking with Daragh Murphy, founder and CEO of Imprint",
+          "source": "McKinsey",
+          "date": null,
+          "url": null,
+          "summary": "CEO discusses company's co-branded credit card technology and future plans",
+          "sentiment": "positive"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Daragh Murphy, CEO of Imprint - $200M to Disrupt Co-Branded Credit Cards",
+          "url": "https://www.youtube.com/watch?v=dOUDmKXrBXU",
+          "embedUrl": "https://www.youtube.com/embed/dOUDmKXrBXU",
+          "speaker": "Daragh Murphy, CEO",
+          "date": null,
+          "description": "Interview with Imprint CEO about the company's $200M funding and disruption in co-branded credit card space"
+        },
+        {
+          "title": "The Future of Investing in Entertainment | Imprint Debt Fund Launch",
+          "url": "https://www.youtube.com/watch?v=EYEP8HUG474",
+          "embedUrl": "https://www.youtube.com/embed/EYEP8HUG474",
+          "speaker": null,
+          "date": null,
+          "description": "Discussion about Imprint's entertainment debt fund and financing for entertainment projects"
+        }
+      ]
+    },
+    "people": {
+      "leadership": [
+        {
+          "name": "Daragh Murphy",
+          "title": "CEO and Co-Founder",
+          "linkedinUrl": "https://www.linkedin.com/in/daraghjmurphy",
+          "background": "Previously experienced at WeWork, holds a JD from Duke University School of Law. Founded Imprint in 2020 and has led the company through multiple funding rounds totaling $200M+ from top-tier VCs."
+        },
+        {
+          "name": "Will Larson",
+          "title": "Chief Technology Officer",
+          "linkedinUrl": null,
+          "background": "Seasoned technology leader with 15+ years scaling engineering teams. Previously CTO at Carta and Calm, led engineering teams at Stripe and Uber. Author of three books on engineering management, holds BS in Computer Science from Centre College."
+        },
+        {
+          "name": "Mariana Pali Coontz",
+          "title": "Chief Financial Officer and Chief Operating Officer",
+          "linkedinUrl": null,
+          "background": "Joined in May 2023, bringing experience from JPMorgan Chase and Synchrony Financial. Oversees financial operations and strategy."
+        },
+        {
+          "name": "Sean Rowles",
+          "title": "Chief Risk Officer",
+          "linkedinUrl": null,
+          "background": "Former PayPal executive who joined in October 2023. Oversees credit policy, compliance, and regulatory alignment."
+        },
+        {
+          "name": "Melissa Davis Bar-Ziv",
+          "title": "Chief Commercial Officer",
+          "linkedinUrl": null,
+          "background": "Joined in January 2025, responsible for go-to-market strategy and partner relationships."
+        },
+        {
+          "name": "Livingston Miller",
+          "title": "General Counsel and Chief Business Officer",
+          "linkedinUrl": null,
+          "background": "Leads legal affairs and business operations for the company."
+        },
+        {
+          "name": "Colin Groshong",
+          "title": "Chief Capital Officer & Business Officer",
+          "linkedinUrl": null,
+          "background": "Oversees capital markets and business development initiatives."
+        },
+        {
+          "name": "Tyler Dibble",
+          "title": "Chief Revenue Officer",
+          "linkedinUrl": null,
+          "background": "Leads revenue generation and sales strategy."
+        }
+      ],
+      "boardMembers": [],
+      "teamSize": "~200 (based on LinkedIn showing 51-200 employees with 233 associated members)",
+      "departments": [
+        "Engineering",
+        "Product",
+        "Risk & Compliance",
+        "Finance",
+        "Marketing",
+        "Operations",
+        "Strategic Finance",
+        "Data Science",
+        "Legal",
+        "Business Development"
+      ],
+      "hiringTrends": {
+        "summary": "Imprint is actively hiring across technical and business functions with 30+ open positions, signaling rapid scaling. Their focus on data science, strategic finance, and partnership roles suggests they're preparing for larger brand partnerships and more sophisticated financial products.",
+        "trendingDepartments": [
+          "Engineering",
+          "Finance",
+          "Business Development",
+          "Data Science"
+        ],
+        "signals": [
+          "Scaling for enterprise partnerships",
+          "Building sophisticated financial infrastructure",
+          "Investing heavily in data and analytics capabilities",
+          "Preparing for next phase of growth post-Series D"
+        ]
+      },
+      "openRoles": [
+        {
+          "title": "Strategic Finance, Senior Manager",
+          "department": "Finance",
+          "location": "New York",
+          "url": "https://www.linkedin.com/jobs/view/strategic-finance-senior-manager-at-imprint-4388992318"
+        },
+        {
+          "title": "General Manager",
+          "department": "Business Development",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/imprint/ad853553-1571-4af8-bdde-3ecbf96e60f6"
+        },
+        {
+          "title": "Marketing Operations Specialist",
+          "department": "Marketing",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/imprint/b736d365-cf48-4987-a188-1d6adcd8a219"
+        },
+        {
+          "title": "Data Scientist",
+          "department": "Data Science",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/imprint/70d4ab62-9e18-49a0-927a-1f31acd947d8"
+        },
+        {
+          "title": "Bank Partnerships Manager",
+          "department": "Business Development",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/imprint/e94c4403-373c-40de-8778-80c1484c0219"
+        },
+        {
+          "title": "Senior Software Engineer, Infrastructure",
+          "department": "Engineering",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Product Operations Associate",
+          "department": "Product",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Product Attorney",
+          "department": "Legal",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Partner Lead",
+          "department": "Business Development",
+          "location": "Remote",
+          "url": null
+        }
+      ],
+      "cultureSignals": [
+        {
+          "source": "Glassdoor",
+          "signal": "High-impact, high-ownership atmosphere where collaboration thrives with knowledgeable leadership invested in employee development",
+          "sentiment": "positive"
+        },
+        {
+          "source": "CEO Interview",
+          "signal": "Hiring philosophy prioritizes values alignment over just talent - looking for high tolerance for uncertainty, pride in work, drive to move forward, and low entitlement",
+          "sentiment": "positive"
+        },
+        {
+          "source": "CEO Interview",
+          "signal": "Rejects 'cult of personality' leadership approach, focuses on mission and values-driven culture rather than following a single leader",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Glassdoor",
+          "signal": "Fast-moving, high-expectation culture that's not right for those who prefer slower pace or highly structured environment",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Glassdoor",
+          "signal": "Team described as 'incredibly sharp, thoughtful, and collaborative' with high bar but supportive environment",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Glassdoor",
+          "signal": "One negative review mentioned 'horrible company culture' though this appears to be an outlier",
+          "sentiment": "negative"
+        },
+        {
+          "source": "Company Values",
+          "signal": "Focus on clarity, focus, speed, hard work paired with clear strategy and execution - trust built through humble team members",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  }
+}

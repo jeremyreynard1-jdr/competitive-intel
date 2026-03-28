@@ -42,6 +42,11 @@ export function CompanyPicker({
                 <p className="mt-1 text-xs text-slate-500 leading-relaxed">
                   {c.description}
                 </p>
+                {c.website && (
+                  <p className="mt-0.5 text-xs text-slate-400 truncate">
+                    {c.website.replace(/^https?:\/\/(www\.)?/, "")}
+                  </p>
+                )}
               </div>
               {c.location && (
                 <span className="flex-shrink-0 text-xs text-slate-400 whitespace-nowrap">

@@ -7,6 +7,7 @@ export interface CompanyCandidate {
   industry: string;
   description: string;
   location?: string;
+  website?: string;
 }
 
 interface DisambiguateResponse {
@@ -18,15 +19,16 @@ const DISAMBIGUATE_PROMPT = `You are analyzing web search results to identify di
 
 Your job:
 1. Look at the search results and identify the DISTINCT companies with this name or a very similar name
-2. For each distinct company, provide: full company name, industry, a one-line description (max 15 words), and headquarters location
+2. For each distinct company, provide: full company name, industry, a one-line description (max 15 words), headquarters location, and website URL
 3. If the search results clearly point to only ONE company (the name is unambiguous), return just that one
 4. Return at most 5 candidates, ordered by relevance/prominence
 5. Do NOT include results that are clearly not companies (e.g. books, songs, generic terms)
+6. ALWAYS include the company's main website URL. Extract it from search results or infer it from the company name. This field is required.
 
 Return valid JSON only, no markdown:
 {
   "candidates": [
-    { "name": "Full Company Name", "industry": "Industry", "description": "One-line description", "location": "City, Country" }
+    { "name": "Full Company Name", "industry": "Industry", "description": "One-line description", "location": "City, Country", "website": "https://example.com" }
   ]
 }`;
 
@@ -87,6 +89,27 @@ Identify the distinct companies matching "${companyName}".`;
     }
 
     const parsed = JSON.parse(jsonStr) as { candidates: CompanyCandidate[] };
+
+    // Enrich candidates with website URLs from search results
+    for (const candidate of parsed.candidates) {
+      if (!candidate.website) {
+        // Try to find a matching URL from search results
+        const nameLower = candidate.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+        const match = results.find((r) => {
+          const urlLower = r.url.toLowerCase();
+          // Match if the URL domain contains a simplified version of the company name
+          return urlLower.includes(nameLower) || r.title.toLowerCase().includes(candidate.name.toLowerCase());
+        });
+        if (match) {
+          try {
+            const url = new URL(match.url);
+            candidate.website = `${url.protocol}//${url.hostname}`;
+          } catch {
+            // skip
+          }
+        }
+      }
+    }
 
     const response: DisambiguateResponse = {
       candidates: parsed.candidates.slice(0, 5),
