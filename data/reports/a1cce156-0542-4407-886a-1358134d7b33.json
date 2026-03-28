@@ -1,0 +1,612 @@
+{
+  "id": "a1cce156-0542-4407-886a-1358134d7b33",
+  "companyName": "Doctronic.AI",
+  "createdAt": "2026-03-08T03:47:13.716Z",
+  "updatedAt": "2026-03-08T03:58:17.491Z",
+  "sections": {
+    "overview": {
+      "description": "Doctronic is an AI-powered healthcare platform that provides instant medical consultations through AI-driven symptom assessments and diagnosis, combined with on-demand access to licensed physicians for $39 video visits across all 50 states.",
+      "founded": "Not publicly available",
+      "headquarters": "Not publicly available",
+      "employeeCount": "Not publicly available",
+      "website": "https://www.doctronic.ai",
+      "mission": "To deliver democratized access to top-tier medical expertise, enable proactive healthcare, and unlock new care models with AI at the core",
+      "techStack": [
+        "AI-powered medical consultation platform",
+        "Micro-agentic consensus architecture",
+        "Multiple specialized AI agents",
+        "Clinical reasoning systems",
+        "Telehealth video platform"
+      ],
+      "fundingHistory": [
+        {
+          "date": "Not publicly available",
+          "round": "Seed",
+          "amount": "Not publicly available",
+          "investors": [
+            "Union Square Ventures"
+          ],
+          "valuation": null
+        },
+        {
+          "date": "October 2025",
+          "round": "Series A",
+          "amount": "$20M",
+          "investors": [
+            "Lightspeed Venture Partners",
+            "MANTIS Venture Capital"
+          ],
+          "valuation": null
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Not publicly available",
+          "title": "Company Founded",
+          "description": "Doctronic founded by Dr. Adam Oskowitz and Matt Pavelle",
+          "type": "founding"
+        },
+        {
+          "date": "Not publicly available",
+          "title": "Seed Funding",
+          "description": "Raised seed funding with Union Square Ventures participating",
+          "type": "funding"
+        },
+        {
+          "date": "March 2025",
+          "title": "Clinical Validation Study",
+          "description": "500-patient study demonstrated 99.2% treatment plan consistency between AI and board-certified physicians",
+          "type": "milestone"
+        },
+        {
+          "date": "October 2025",
+          "title": "Series A Funding",
+          "description": "Raised $20M Series A led by Lightspeed Venture Partners, bringing total funding to $25M",
+          "type": "funding"
+        },
+        {
+          "date": "January 2026",
+          "title": "Utah Partnership",
+          "description": "Announced groundbreaking partnership with Utah for AI prescription medication renewals",
+          "type": "milestone"
+        }
+      ],
+      "recentNews": [
+        {
+          "title": "Utah and Doctronic announce groundbreaking partnership for AI prescription medication renewals",
+          "source": "Utah Policy",
+          "date": "January 6, 2026",
+          "url": "https://utahpolicy.com/news-release/76279-utah-and-doctronic-announce-groundbreaking-partnership-for-ai-prescription-medication-renewals",
+          "summary": "Utah partners with Doctronic to pilot AI-powered prescription renewals for chronic conditions, aiming to reduce medication lapses and improve access to care."
+        },
+        {
+          "title": "New AI Physician Will Handle Some Treatment Decisions Without Human Involvement",
+          "source": "Forbes",
+          "date": "January 28, 2026",
+          "url": "https://www.forbes.com/sites/paulhsieh/2026/01/28/new-ai-physician-will-handle-some-treatment-decisions-without-human-involvement/",
+          "summary": "Doctronic's AI medical system in Utah has been granted its own special medical malpractice insurance policy for autonomous prescription renewals."
+        },
+        {
+          "title": "AI could soon renew prescriptions without clinicians. Should FDA regulate it?",
+          "source": "STAT",
+          "date": "February 3, 2026",
+          "url": "https://www.statnews.com/2026/02/03/utah-doctronic-ai-doctor-prescription-renewal-fda-regulation/",
+          "summary": "As Utah pilots AI prescription renewals, experts debate whether the technology should be regulated as a medical device by the FDA."
+        }
+      ]
+    },
+    "people": {
+      "leadership": [
+        {
+          "name": "Matt Pavelle",
+          "title": "Co-founder and co-CEO",
+          "linkedinUrl": "https://www.linkedin.com/in/mattpavelle1",
+          "background": "Co-CEO and co-founder of Doctronic. Carnegie Mellon University graduate (1993-1998). Engineering background leading AI healthcare innovation."
+        },
+        {
+          "name": "Nathan Clauss",
+          "title": "Co-founder and co-CEO",
+          "linkedinUrl": "https://www.linkedin.com/posts/nateclauss_hi-im-doctronic-activity-7391180045903433728-VqwW",
+          "background": "Co-CEO and co-founder of Doctronic. Leads the consumer-facing aspects of the AI doctor platform."
+        },
+        {
+          "name": "Byron Crowe",
+          "title": "Chief Medical Officer",
+          "linkedinUrl": null,
+          "background": "Medical Doctor recently appointed as CMO to lead clinical innovation. Brings deep empathy for doctors and patients combined with technical AI rigor."
+        },
+        {
+          "name": "Sean Clark",
+          "title": "Director of Marketing Strategy",
+          "linkedinUrl": null,
+          "background": "Leads marketing strategy for the consumer health AI platform."
+        }
+      ],
+      "boardMembers": [],
+      "teamSize": "51-200 employees",
+      "departments": [
+        "Clinical",
+        "Engineering",
+        "Marketing",
+        "Operations",
+        "Quality Assurance",
+        "Information Security",
+        "Human Resources"
+      ],
+      "hiringTrends": {
+        "summary": "Doctronic's 25 open positions signal aggressive scaling across clinical, technical, and operational functions. Heavy emphasis on clinical roles (Medical Director, Clinical Product Manager) indicates focus on expanding medical capabilities and regulatory compliance.",
+        "trendingDepartments": [
+          "Clinical",
+          "Operations",
+          "Marketing",
+          "Engineering"
+        ],
+        "signals": [
+          "Scaling clinical operations with medical leadership",
+          "Building consumer marketing capabilities",
+          "Investing in quality assurance and security infrastructure",
+          "Expanding technical project management"
+        ]
+      },
+      "openRoles": [
+        {
+          "title": "Medical Director",
+          "department": "Clinical",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Clinical Product Manager",
+          "department": "Clinical",
+          "location": "San Francisco - Remote - US",
+          "url": null
+        },
+        {
+          "title": "Director of Operations",
+          "department": "Operations",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "HR Manager",
+          "department": "Human Resources",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "QA Engineer",
+          "department": "Engineering",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Brand & Marketing Designer",
+          "department": "Marketing",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Technical Project Manager",
+          "department": "Engineering",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Information Security",
+          "department": "Security",
+          "location": "Remote",
+          "url": null
+        },
+        {
+          "title": "Sales Development Representative, Health Systems",
+          "department": "Sales",
+          "location": "Remote",
+          "url": null
+        }
+      ],
+      "cultureSignals": [
+        {
+          "source": "Company website",
+          "signal": "Fully remote team giving freedom to work anywhere in the world",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Employee reviews",
+          "signal": "Great culture and good work-life balance with experienced, collaborative team",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Company website",
+          "signal": "Competitive salaries with equity opportunities and comprehensive health benefits",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Employee reviews",
+          "signal": "Good place to work for those interested in Medical/Health AI",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Company website",
+          "signal": "Mission-driven focus on 'Building AI That Matters' in healthcare transformation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "financial": {
+      "revenueEstimate": "$3-5M ARR based on 50,000 weekly visits at $39 per paid consultation, though free tier users (1M+ total) likely represent significant volume with monetization through partnerships",
+      "growthTrajectory": "Explosive growth trajectory - from 1M to targeting 100M users with 50K weekly visits and 15M medical conversations processed. Strong network effects from AI training data",
+      "burnRate": "$2-3M monthly estimated based on Series A raise timing and typical healthcare AI startup operations",
+      "runway": "24-30 months with $20M Series A, though likely accelerating burn as they scale to 100M users",
+      "profitability": "Pre-revenue/early revenue stage focused on growth over profitability, with path to monetization through B2C visits ($39), payer partnerships, and health system contracts",
+      "exitStrategy": {
+        "mostLikelyPath": "Acquisition",
+        "reasoning": "Healthcare AI companies at this scale typically get acquired by major health tech players or incumbents seeking AI capabilities. The 99% clinical agreement rate and regulatory approval in Utah creates significant strategic value for established healthcare companies looking to integrate AI.",
+        "timeline": "3-5 years",
+        "potentialAcquirers": [
+          {
+            "name": "Teladoc",
+            "reasoning": "Leading telehealth platform seeking AI enhancement to compete with AI-native players",
+            "estimatedValue": "$300-500M"
+          },
+          {
+            "name": "UnitedHealth/Optum",
+            "reasoning": "Massive healthcare conglomerate with history of acquiring digital health companies to integrate across their ecosystem",
+            "estimatedValue": "$400-800M"
+          },
+          {
+            "name": "Microsoft",
+            "reasoning": "Heavy healthcare AI investment through Azure Health and would benefit from validated clinical AI platform",
+            "estimatedValue": "$500M-1B"
+          }
+        ]
+      },
+      "comparableExits": [
+        {
+          "company": "K Health",
+          "exitType": "Stay Private",
+          "acquirer": null,
+          "value": "$1.5B valuation",
+          "date": "2021",
+          "relevance": "Direct competitor in AI-powered primary care with similar model and scale"
+        },
+        {
+          "company": "98point6",
+          "exitType": "Acquired",
+          "acquirer": "Transcarent",
+          "value": "$100M",
+          "date": "2023",
+          "relevance": "Text-based primary care platform shows consolidation trend in digital health"
+        },
+        {
+          "company": "Babylon Health",
+          "exitType": "Acquired",
+          "acquirer": "MindMaze",
+          "value": "$225M",
+          "date": "2023",
+          "relevance": "AI-powered healthcare platform that went public then was acquired, showing exit path volatility"
+        }
+      ]
+    },
+    "perception": {
+      "overallSentiment": "Doctronic.AI receives generally positive public perception as an innovative AI-powered healthcare platform, though some users express concerns about diagnostic accuracy and the reliability of AI medical advice.",
+      "sentimentScore": 6,
+      "redditDiscussions": [
+        {
+          "source": "r/hysterectomy",
+          "title": "Anyone tried Doctronic.ai? $40 for a quick MD consult",
+          "content": "Had two visits with this service. The first was good it was fast",
+          "sentiment": "positive",
+          "url": "https://www.reddit.com/r/hysterectomy/comments/1nf8ad2/anyone_tried_doctronicai_40_for_a_quick_md_consult/",
+          "date": null
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Chatgpt may have saved my life",
+          "content": "At Doctronic, we believe AI works best when it helps people ask better questions and feel more prepared before they even get to the clinic",
+          "sentiment": "positive",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1lvhqm9/chatgpt_may_have_saved_my_life/",
+          "date": null
+        },
+        {
+          "source": "r/DoctorMike",
+          "title": "Doctronic AI",
+          "content": "Just today I answered all questions from the AI assistant, signed up and paid $39 dollars to speak to an online physician. Waited a few minutes",
+          "sentiment": "neutral",
+          "url": "https://www.reddit.com/r/DoctorMike/comments/1h5wb3y/doctronic_ai/",
+          "date": null
+        },
+        {
+          "source": "r/BFS",
+          "title": "Doctronic",
+          "content": "Put in my symptoms and Doctronic says I have a 40 percent chance of having als and only ten percent chance of having bfs",
+          "sentiment": "negative",
+          "url": "https://www.reddit.com/r/BFS/comments/1hiog2k/doctronic/",
+          "date": null
+        }
+      ],
+      "reviews": {
+        "averageRating": 4,
+        "totalReviews": 520,
+        "platforms": [
+          "Trustpilot"
+        ],
+        "themes": {
+          "positive": [
+            "Fast consultation process",
+            "User-friendly interface",
+            "Helpful AI guidance",
+            "Quick access to licensed physicians",
+            "24/7 availability"
+          ],
+          "negative": [
+            "Concerns about AI diagnostic accuracy",
+            "Questions about whether responses are from real doctors",
+            "Mixed experiences with follow-up care"
+          ]
+        },
+        "highlights": [
+          "Felt like talking to actual doctor",
+          "Very helpful, user friendly and concise questions",
+          "Company replies to 68% of negative reviews within 1 week"
+        ]
+      },
+      "pressCoverage": [
+        {
+          "title": "Doctronic Raises $20M for AI-Powered Health Guidance Platform",
+          "source": "PYMNTS",
+          "date": "2025",
+          "url": "https://www.pymnts.com/healthcare/2025/doctronic-raises-20-million-dollars-ai-powered-health-guidance-platform/",
+          "summary": "Platform uses generative AI to deliver health guidance in minutes with access to licensed physicians via video visits.",
+          "sentiment": "positive"
+        },
+        {
+          "title": "Doctronic startup is using AI to cut doctor wait times",
+          "source": "New York Post",
+          "date": "2025-05-14",
+          "url": "https://nypost.com/2025/05/14/business/doctronic-startup-is-using-ai-to-cut-doctor-wait-times/",
+          "summary": "Startup differs from competitors by using proprietary physician-built AI and offering real doctor consultations within 30 minutes.",
+          "sentiment": "positive"
+        },
+        {
+          "title": "Doctronic Raises $20 Million Series A to Bring Private and Personalized AI Doctor to the Masses",
+          "source": "Healthcare IT Today",
+          "date": "2025-10-22",
+          "url": "https://www.healthcareittoday.com/2025/10/22/doctronic-raises-20-million-series-a-to-bring-private-and-personalized-ai-doctor-to-the-masses/",
+          "summary": "Series A funding round to expand AI-powered healthcare platform.",
+          "sentiment": "positive"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Matt Pavelle, Co‑Founder & Co‑CEO at Doctronic at HLTH2025",
+          "url": "https://www.youtube.com/watch?v=f3rLNtTl7Bc",
+          "embedUrl": "https://www.youtube.com/embed/f3rLNtTl7Bc",
+          "speaker": "Matt Pavelle",
+          "date": null,
+          "description": "Co-founder describes platform redefining healthcare access through AI"
+        },
+        {
+          "title": "Doctronic co-founders on the rise of AI prescriptions",
+          "url": "https://www.youtube.com/watch?v=ZOX6ubU_Wq4",
+          "embedUrl": "https://www.youtube.com/embed/ZOX6ubU_Wq4",
+          "speaker": "Dr. Adam Oskowitz and Matt Pavelle",
+          "date": null,
+          "description": "Co-founders discuss AI implementation in healthcare on Squawk Box"
+        },
+        {
+          "title": "Matt Pavelle and Adam Oskowitz, co-founders of DoctronicAI",
+          "url": "https://www.youtube.com/watch?v=YZNgiRV9S2w",
+          "embedUrl": "https://www.youtube.com/embed/YZNgiRV9S2w",
+          "speaker": "Matt Pavelle and Adam Oskowitz",
+          "date": null,
+          "description": "Interview with both co-founders about their AI-powered healthcare platform"
+        },
+        {
+          "title": "Matt Pavelle, Doctronic | Coffee with a Founder Podcast",
+          "url": "https://www.youtube.com/watch?v=QPVo6DoCwHM",
+          "embedUrl": "https://www.youtube.com/embed/QPVo6DoCwHM",
+          "speaker": "Matt Pavelle",
+          "date": null,
+          "description": "Podcast interview with co-founder discussing the company's mission and vision"
+        }
+      ]
+    },
+    "market": {
+      "marketSize": "Global AI in healthcare market valued at $21.66B in 2025, projected to reach $615B by 2034 (MarketsandMarkets)",
+      "marketGrowthRate": "38.6% CAGR (2025-2034)",
+      "competitors": [
+        {
+          "name": "K Health",
+          "description": "AI-enabled virtual care provider offering primary care, urgent care, mental health and medical weight management services with AI patient assessments integrated into EMRs",
+          "website": null,
+          "differentiators": [
+            "Comprehensive virtual care platform",
+            "EMR integration",
+            "Multiple service lines"
+          ],
+          "strengths": [
+            "Established player with proven scaling",
+            "Full service offering",
+            "Provider workflow integration"
+          ],
+          "weaknesses": [
+            "More complex positioning",
+            "Higher operational overhead from multiple verticals"
+          ],
+          "estimatedSize": "Unknown but established"
+        },
+        {
+          "name": "Ada Health",
+          "description": "AI symptom checker using Bayesian networks and medical knowledge base with global presence and clinical validation focus",
+          "website": null,
+          "differentiators": [
+            "Clinically validated accuracy",
+            "Global market presence",
+            "Structured questionnaire approach"
+          ],
+          "strengths": [
+            "Strong clinical validation reputation",
+            "International scaling",
+            "Established medical partnerships"
+          ],
+          "weaknesses": [
+            "Less conversational interface",
+            "Handoff integration challenges",
+            "More rigid user experience"
+          ],
+          "estimatedSize": "Global presence suggests significant scale"
+        },
+        {
+          "name": "Tempus",
+          "description": "Publicly traded AI-powered precision medicine company that launched 'olivia' AI health concierge app for centralizing and analyzing patient health data",
+          "website": null,
+          "differentiators": [
+            "Public company resources",
+            "Precision medicine focus",
+            "Comprehensive health data platform"
+          ],
+          "strengths": [
+            "Public market funding",
+            "Deep healthcare data expertise",
+            "Enterprise relationships"
+          ],
+          "weaknesses": [
+            "Complex platform may lack consumer focus",
+            "Different primary market (precision medicine vs primary care)"
+          ],
+          "estimatedSize": "Public company with significant resources"
+        },
+        {
+          "name": "Cody MD",
+          "description": "Medical AI assistant providing diagnostic support, positioned as competitor in medical AI space",
+          "website": null,
+          "differentiators": [
+            "Standalone medical AI solution"
+          ],
+          "strengths": [
+            "Direct medical AI focus"
+          ],
+          "weaknesses": [
+            "Less integrated ecosystem",
+            "Lower diagnostic accuracy vs Doctronic claims",
+            "No 24/7 human physician handoff"
+          ],
+          "estimatedSize": "Unknown"
+        },
+        {
+          "name": "Docus.ai",
+          "description": "Medical AI platform with limited specialty coverage compared to Doctronic's comprehensive diagnostic support",
+          "website": null,
+          "differentiators": [
+            "Medical AI focus"
+          ],
+          "strengths": [
+            "Established in medical AI space"
+          ],
+          "weaknesses": [
+            "Limited specialty coverage",
+            "Less comprehensive than Doctronic's offering"
+          ],
+          "estimatedSize": "Unknown"
+        }
+      ],
+      "positioning": "Doctronic positions itself as 'The #1 AI Doctor' offering the most advanced medical AI that combines free AI consultations with seamless handoff to licensed physicians available 24/7 across all 50 states, creating an integrated AI-plus-human healthcare ecosystem",
+      "messagingAnalysis": "Doctronic's messaging emphasizes being 'your AI doctor trained by top human doctors' with superior diagnostic accuracy and persistent patient memory. Unlike competitors who position as 'tools' or 'assistants,' Doctronic boldly claims to BE a doctor (while disclaiming it doesn't practice medicine). This aggressive positioning differentiates from Ada's clinical validation focus and K Health's platform approach.",
+      "industryTrends": [
+        "AI-first healthcare adoption led by Gen Z (19-34 year olds) driving 60%+ of usage",
+        "Shift toward AI triage + human handoff hybrid models replacing traditional primary care",
+        "GLP-1 weight management representing $100B market opportunity by 2030",
+        "Healthcare AI market growing at 38.6% CAGR with increasing enterprise adoption",
+        "Regulatory evolution with FDA scrutiny increasing for AI medical applications"
+      ],
+      "competitiveRisks": [
+        "Regulatory crackdown - FDA concerns about AI medical advice could force significant model changes or restrict capabilities",
+        "Incumbent scaling - K Health or Ada Health could copy the AI+human handoff model with better resources",
+        "Big Tech entry - Google, Microsoft, or Amazon could launch competing healthcare AI with superior technical resources",
+        "Clinical accuracy challenges - any high-profile misdiagnosis could damage the 'AI doctor' positioning",
+        "Provider resistance - healthcare systems may build competing solutions rather than integrate Doctronic"
+      ],
+      "competitiveAdvantages": [
+        "Integrated ecosystem moat - seamless AI to human physician handoff in all 50 states creates switching costs",
+        "Persistent patient memory - AI that remembers health history vs competitors' episodic interactions",
+        "10+ million user base providing proprietary training data and network effects",
+        "Speed to diagnosis with SOAP note generation - unique clinical workflow integration",
+        "$20M Series A funding from Lightspeed provides scaling capital advantage over smaller competitors"
+      ]
+    },
+    "fit": {
+      "orgGaps": [
+        {
+          "area": "Operations Leadership",
+          "description": "Currently hiring Director of Operations but may lack senior operational infrastructure for scaling AI healthcare platform processing millions of consultations",
+          "impact": "Without strong ops leadership, rapid growth could lead to inefficiencies, quality issues, and inability to scale AI-human care coordination effectively",
+          "hasCurrentLeader": false,
+          "currentLeader": null
+        },
+        {
+          "area": "People/HR Function",
+          "description": "Actively hiring HR Manager to 'build HR function from scratch' - indicates no established People Operations infrastructure",
+          "impact": "As a fast-scaling startup in competitive healthcare AI space, lack of HR infrastructure limits talent acquisition, retention, and cultural development",
+          "hasCurrentLeader": false,
+          "currentLeader": null
+        },
+        {
+          "area": "Business Operations & Strategy",
+          "description": "No visible BizOps or Chief of Staff function to support executive decision-making and cross-functional coordination",
+          "impact": "Complex AI healthcare model with TPA partnerships, regulatory requirements, and dual AI-human care delivery needs strategic operations oversight",
+          "hasCurrentLeader": false,
+          "currentLeader": null
+        },
+        {
+          "area": "Data & Analytics Infrastructure",
+          "description": "Processing millions of consultations but no clear analytics leadership to optimize AI performance, care outcomes, and business metrics",
+          "impact": "Cannot effectively measure treatment accuracy, operational efficiency, or optimize AI-human handoffs without robust analytics capabilities",
+          "hasCurrentLeader": false,
+          "currentLeader": null
+        }
+      ],
+      "strategicChallenges": [
+        "Scaling AI healthcare operations while maintaining 99%+ treatment accuracy across millions of monthly consultations",
+        "Building operational infrastructure to support rapid headcount growth in competitive AI/healthcare talent market",
+        "Optimizing AI-to-human care handoffs and managing complex TPA partnerships",
+        "Establishing compliance and quality assurance processes for regulated healthcare AI platform",
+        "Creating data-driven optimization of AI performance and patient outcomes at scale"
+      ],
+      "skillAlignment": [
+        {
+          "challenge": "Building operations infrastructure from zero for fast-scaling AI healthcare platform",
+          "relevantSkill": "0→1 operations builder with healthcare adjacency",
+          "evidence": "Built BizOps from scratch at Matter Labs, first data hire at Luminary, created international analytics function at Disney+ - all in high-growth, regulated environments"
+        },
+        {
+          "challenge": "Managing cross-functional coordination between AI/medical teams, compliance, and business functions",
+          "relevantSkill": "Cross-functional program management across complex stakeholder groups",
+          "evidence": "Led People/Legal/Finance workstreams for $1B token launch, recognized as Top Cross-Functional Partner at LinkedIn, managed compliance across 30+ countries"
+        },
+        {
+          "challenge": "Scaling operations while maintaining quality in millions of AI healthcare consultations",
+          "relevantSkill": "Operational excellence at massive scale with quality focus",
+          "evidence": "Managed 130M+ subscriber operations at Disney+, automated executive reporting reducing time-to-insight 80%, maintained quality across global distributed teams"
+        },
+        {
+          "challenge": "Building People Operations infrastructure for competitive healthcare AI talent market",
+          "relevantSkill": "People Operations leadership and talent strategy",
+          "evidence": "Served as interim Head of People managing 10 reports, redesigned comp models, led ATS migrations, built career ladders helping 3+ promotions"
+        },
+        {
+          "challenge": "Optimizing AI performance and measuring healthcare outcomes through data analytics",
+          "relevantSkill": "Data-driven decision making and analytics infrastructure",
+          "evidence": "Built analytics teams, automated reporting for 130M+ users, defined KPIs for $20M+ revenue measurement, sized $10M+ partnerships through ROI analysis"
+        }
+      ],
+      "valuePropositions": [
+        "Could serve as COO/VP Operations building operational infrastructure to support millions of AI consultations while maintaining 99%+ accuracy",
+        "Natural Chief of Staff to CEO/COO providing strategic execution across AI development, regulatory compliance, and TPA partnerships",
+        "Can build People Operations function from scratch while simultaneously establishing BizOps infrastructure - dual critical gap coverage",
+        "Brings data-driven optimization capabilities to improve AI performance, measure patient outcomes, and optimize care delivery costs",
+        "Experience with regulated, high-stakes environments (healthcare-adjacent at Disney+, financial compliance at Matter Labs) crucial for AI healthcare platform"
+      ],
+      "recommendation": "Jeremy is exceptionally well-positioned for Doctronic given their multiple critical operational gaps and his proven track record building infrastructure at scale. His experience as Chief of Staff/Head of BizOps at Matter Labs directly parallels what Doctronic needs - someone who can build operations from zero while managing complex stakeholder coordination. The fact that he served as interim Head of People while running BizOps means he could simultaneously address their two most urgent hiring needs (Director of Operations and HR Manager roles).\n\nHis healthcare-adjacent experience optimizing care delivery at Disney+ (130M+ subscribers) and data-driven approach to measuring outcomes aligns perfectly with Doctronic's need to maintain 99%+ treatment accuracy across millions of consultations. His cross-functional program management skills are crucial for coordinating between AI development teams, medical professionals, regulatory requirements, and TPA partnerships. Jeremy should position himself as the operational backbone that can scale Doctronic's AI healthcare platform while building the people and process infrastructure needed for their next growth phase.\n\nGiven their active search for both Director of Operations and HR Manager, Jeremy could propose a Chief of Staff or VP Operations role that encompasses both operational leadership and people operations - offering them a single hire that solves multiple critical gaps while providing executive partnership to navigate the complex regulatory and scaling challenges of AI-powered healthcare."
+    }
+  }
+}
